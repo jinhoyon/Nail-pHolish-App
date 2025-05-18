@@ -1,7 +1,7 @@
 # Nail pHolish App
 
 ## Overview
-The Nail pHolish app is designed to work in conjunction with the Nail pHolish biosensor, a colorimetric nail polish that detects pH changes through interactions with body and environmental fluids. Using a Nix Color Sensor (Nix Spectro 2), the app converts the color of the nail polish into pH levels through RGB analysis, providing users with real-time chemical detection information. The app is intuitive and user-friendly, featuring three main pages: Landing, Dashboard, and Analyze.
+The Nail pHolish app is designed to work in conjunction with the Nail pHolish biosensor, a colorimetric nail polish that detects pH changes through interactions with body and environmental fluids. Using a Nix Color Sensor (Nix Spectro 2), the app converts the color of the nail polish into pH levels through RGB analysis, providing users with real-time chemical detection information. The app is intuitive and user-friendly, featuring three main pages: Intro, Dashboard, and Analyze.
 
 ## Features
 - **Biosensor Nail Polish Detection**: 
@@ -12,38 +12,26 @@ The Nail pHolish app is designed to work in conjunction with the Nail pHolish bi
    - Uses the Nix Spectro 2 to capture RGB values from the nail surface.
    - Converts RGB values into pH levels using colorimetric analysis.
    - Euclidean distance calculation for accurate pH estimation.
-   - Supports custom RGB value input for dynamic recalibration and adaptation to different biosensors.
-
-- **Customizable Calibration**:
-   - Users can create and save custom target RGB values for various biosensor swatches.
-   - Allows flexibility for use in a wide range of scenarios beyond pH detection.
 
 ## Pages
 
-### 1. Landing Page
-The Landing page serves as the app's starting point for using the Nail pHolish biosensor. From this page, users can:
-- Navigate to the Analyze page to connect and to their Nix Color Sensor.
-- View general information about the Nail pHolish system.
-- Access settings for the app and user preferences.
+### 1. Intro Screen
+The is the first screen the user is direct to when launching the app. The screen serves as a way for the user to have a layer of privacy, such that their information is not loaded as soon as the app launches. From this page, users can:
+- Press "Begin" to continue to the Analyze scree.
 <img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/IntroScreen.png" alt="Intro Screen" width="400"/>
 
-### 2. Dashboard Page
+### 2. Analyze Screen
 This page allows users to interact directly with the Nix Color Sensor (Nix Spectro 2). Key functionalities include:
 - **Sensor Pairing**: Establish a Bluetooth connection with the Nix Color Sensor.
 - **Color Measurement**: Capture RGB values from the biosensor nail polish on the user's fingernails.
-- **Calibration**: Adjust target RGB values for more accurate pH detection or to accommodate new biosensor colors.
-- **Manual Input**: Allows users to input custom target values for specific use cases.
-
-<img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/DashboardScreen.png" alt="Dashboard" width="400"/>
-<img src="https://github.com/user-attachments/assets/e5b07c16-ce37-4c11-b7dc-8d77cef5208f" alt="Edit" width="400"/>
-
-### 3. Analyze Page
-The Results page displays the processed data after RGB color capture, showing the estimated pH level based on the biosensor’s color change. The page features:
 - **Real-time pH Display**: Shows the pH level detected from the nail polish.
-- **Graphical Visualization**: Provides a visual representation of the pH change over time or after different measurements.
-- **Data Logging**: Stores previous readings for tracking trends and comparisons.
-
+- **Add Measured Values**: Add recorded pH values to their respective category (saliva or beverage).
 <img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/AnalyzeScreen.png" alt="Analyze Screen" width="400"/>
+
+### 3. Dashboard Screen
+The Results page displays the processed data after RGB color capture, showing the estimated pH level based on the biosensor’s color change. The page features:
+- **Graphical Visualization**: Provides a visual representation of the pH change over time or after different measurements.
+<img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/DashboardScreen.png" alt="Dashboard Screen" width="400"/>
 
 ## Setup and Installation
 
