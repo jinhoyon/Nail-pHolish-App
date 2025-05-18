@@ -25,7 +25,7 @@ The Landing page serves as the app's starting point for using the Nail pHolish b
 - Navigate to the Analyze page to connect and to their Nix Color Sensor.
 - View general information about the Nail pHolish system.
 - Access settings for the app and user preferences.
-<img src="https://github.com/user-attachments/assets/7ba81a08-5c24-4031-b81a-5ea6160db586" alt="Home" width="400"/>
+<img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/IntroScreen.png" alt="Intro Screen" width="400"/>
 
 ### 2. Dashboard Page
 This page allows users to interact directly with the Nix Color Sensor (Nix Spectro 2). Key functionalities include:
@@ -34,7 +34,7 @@ This page allows users to interact directly with the Nix Color Sensor (Nix Spect
 - **Calibration**: Adjust target RGB values for more accurate pH detection or to accommodate new biosensor colors.
 - **Manual Input**: Allows users to input custom target values for specific use cases.
 
-<img src="https://github.com/user-attachments/assets/3bb2a1e3-ba87-46a3-a8a8-0cd375b705b6" alt="Nix" width="400"/>
+<img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/DashboardScreen.png" alt="Dashboard" width="400"/>
 <img src="https://github.com/user-attachments/assets/e5b07c16-ce37-4c11-b7dc-8d77cef5208f" alt="Edit" width="400"/>
 
 ### 3. Analyze Page
@@ -43,7 +43,7 @@ The Results page displays the processed data after RGB color capture, showing th
 - **Graphical Visualization**: Provides a visual representation of the pH change over time or after different measurements.
 - **Data Logging**: Stores previous readings for tracking trends and comparisons.
 
-<img src="https://github.com/user-attachments/assets/a44f6474-6d17-45e1-9b54-c36b25cb5b20" alt="Results" width="400"/>
+<img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/AnalyzeScreen.png" alt="Analyze Screen" width="400"/>
 
 ## Setup and Installation
 
