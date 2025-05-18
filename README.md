@@ -1,11 +1,11 @@
 # Nail pHolish App
 
 ## Overview
-The Nail pHolish app is designed to work in conjunction with the Nail pHolish biosensor, a colorimetric nail polish that detects pH changes through interactions with body and environmental fluids. Using a Nix Color Sensor (Nix Spectro 2), the app converts the color of the nail polish into pH levels through RGB analysis, providing users with real-time chemical detection information. The app is intuitive and user-friendly, featuring three main pages: Home, Nix Sensor, and Results.
+The Nail pHolish app is designed to work in conjunction with the Nail pHolish biosensor, a colorimetric nail polish that detects pH changes through interactions with body and environmental fluids. Using a Nix Color Sensor (Nix Spectro 2), the app converts the color of the nail polish into pH levels through RGB analysis, providing users with real-time chemical detection information. The app is intuitive and user-friendly, featuring three main pages: Landing, Dashboard, and Analyze.
 
 ## Features
 - **Biosensor Nail Polish Detection**: 
-   - Nail polish made with anthocyanins detects pH changes (e.g., pH 5, 6, 7, 8).
+   - Nail polish made with anthocyanins detects pH changes (e.g., pH 2, 4, 6, 8, 10).
    - Captures color changes on the nail and processes RGB data via the Nix Spectro 2 color sensor.
    
 - **pH-Level Detection System**:
@@ -20,14 +20,14 @@ The Nail pHolish app is designed to work in conjunction with the Nail pHolish bi
 
 ## Pages
 
-### 1. Home Page
-The Home page is the app's landing screen and serves as the starting point for using the Nail pHolish biosensor. From this page, users can:
-- Navigate to the Nix Sensor page to connect to their Nix Color Sensor.
+### 1. Landing Page
+The Landing page serves as the app's starting point for using the Nail pHolish biosensor. From this page, users can:
+- Navigate to the Analyze page to connect and to their Nix Color Sensor.
 - View general information about the Nail pHolish system.
 - Access settings for the app and user preferences.
 <img src="https://github.com/user-attachments/assets/7ba81a08-5c24-4031-b81a-5ea6160db586" alt="Home" width="400"/>
 
-### 2. Nix Sensor Page
+### 2. Dashboard Page
 This page allows users to interact directly with the Nix Color Sensor (Nix Spectro 2). Key functionalities include:
 - **Sensor Pairing**: Establish a Bluetooth connection with the Nix Color Sensor.
 - **Color Measurement**: Capture RGB values from the biosensor nail polish on the user's fingernails.
@@ -37,7 +37,7 @@ This page allows users to interact directly with the Nix Color Sensor (Nix Spect
 <img src="https://github.com/user-attachments/assets/3bb2a1e3-ba87-46a3-a8a8-0cd375b705b6" alt="Nix" width="400"/>
 <img src="https://github.com/user-attachments/assets/e5b07c16-ce37-4c11-b7dc-8d77cef5208f" alt="Edit" width="400"/>
 
-### 3. Results Page
+### 3. Analyze Page
 The Results page displays the processed data after RGB color capture, showing the estimated pH level based on the biosensor’s color change. The page features:
 - **Real-time pH Display**: Shows the pH level detected from the nail polish.
 - **Graphical Visualization**: Provides a visual representation of the pH change over time or after different measurements.
