@@ -17,7 +17,7 @@ The Nail pHolish app is designed to work in conjunction with the Nail pHolish bi
 
 ### 1. Intro Screen
 The is the first screen the user is direct to when launching the app. The screen serves as a way for the user to have a layer of privacy, such that their information is not loaded as soon as the app launches. From this page, users can:
-- Press "Begin" to continue to the Analyze scree.
+- Press "Begin" to continue to the Analyze screen.
 <img src="https://github.com/jinhoyon/Nail-pHolish-App/blob/main/IntroScreen.png" alt="Intro Screen" width="400"/>
 
 ### 2. Analyze Screen
